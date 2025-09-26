@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  min-height: 100vh;
+}
+
+.company-header {
+  padding: 20px 0;
+  background: #fff;
+  height: auto !important;
+  line-height: 1.8 !important;
+}
+
+.company-name {
+  text-align: left;
+  padding-left: 24px;
+}
+
+.company-name .chinese {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.company-name .english {
+  font-size: 20px;
+  color: #333;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.blue-nav-bar {
+  height: 60px;
+  background-color: #0e5fa5;
+  width: 100%;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.footer-bar {
+  height: 60px;
+  background-color: #0e5fa5;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content {
+  color: #fff;
+  font-size: 14px;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.content {
+  padding: 24px;
+  min-height: 280px;
+  background: #fff;
+}
+
+.search-section {
+  text-align: center;
+  padding: 100px 0;
+  position: relative;
+  color: #fff;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.search-section h1,
+.search-section h2,
+.search-section .search-input {
+  position: relative;
+  z-index: 2;
+}
+
+.search-section h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.search-section h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.search-input {
+  width: 50%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-input :global(.ant-input) {
+  height: 50px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.search-input :global(.ant-input-search-button) {
+  height: 50px;
+  width: 60px;
+}
+
+.service-card {
+  margin-bottom: 24px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
