@@ -9,13 +9,13 @@ const HomePage: React.FC = () => {
     {
       title: '客户信息查询系统',
       description: '精准查询 | 客户信息一秒即达',
-      icon: '📊',
+      icon: '�',
       link: 'https://portalqas.cnoocshell.com/home'
     },
     {
       title: '化免通线上报价平台',
       description: '线上报价 | 化免通让交易更灵活',
-      icon: '💰',
+      icon: '�',
       link: 'https://portalqas.cnoocshell.com/home'
     },
     {

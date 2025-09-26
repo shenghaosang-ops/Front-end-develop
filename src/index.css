@@ -132,9 +132,30 @@ body {
   margin-bottom: 24px;
   cursor: pointer;
   transition: all 0.3s;
+  padding: 24px;
 }
 
 .service-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.service-card .ant-card-head-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0e5fa5;
+}
+
+.service-card .service-description {
+  font-size: 16px;
+  color: #666;
+  margin: 16px 0;
+  line-height: 1.6;
+}
+
+.service-card .service-icon {
+  font-size: 48px;
+  text-align: center;
+  margin: 16px 0;
+  color: #0e5fa5;
 }
