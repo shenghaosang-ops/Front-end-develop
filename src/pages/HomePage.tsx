@@ -11,18 +11,18 @@ const HomePage: React.FC = () => {
       link: 'https://portalqas.cnoocshell.com/home'
     },
     {
-      title: '化免通线上报价平台',
-      description: '线上报价 | 化免通让交易更灵活',
+      title: '化竞通线上报价平台',
+      description: '线上报价 | 化竞通让交易更灵活',
       icon: '',
       subIcon: '💰',
-      link: 'https://portalqas.cnoocshell.com/home'
+      link: 'https://ecommerceqa.cnoocshell.com/'
     },
     {
       title: 'LMS物流管理系统',
       description: '智慧物流 | LMS全程可视可控',
       icon: '',
       subIcon: '🚛',
-      link: 'https://portalqas.cnoocshell.com/home'
+      link: 'https://tslms.cnoocshell.com:9081/lms/'
     }
   ];
 
