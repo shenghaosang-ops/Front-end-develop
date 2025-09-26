@@ -71,10 +71,10 @@ body {
 
 .search-section {
   text-align: center;
-  padding: 100px 0;
+  padding: 160px 0;
   position: relative;
   color: #fff;
-  min-height: 500px;
+  min-height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,6 +97,20 @@ body {
 .search-section .search-input {
   position: relative;
   z-index: 2;
+}
+
+.search-section h1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+}
+
+.search-section h2 {
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 35px;
+  letter-spacing: 2px;
 }
 
 .search-section h1 {
@@ -132,7 +146,11 @@ body {
   margin-bottom: 24px;
   cursor: pointer;
   transition: all 0.3s;
-  padding: 24px;
+  padding: 32px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .service-card:hover {
@@ -141,21 +159,35 @@ body {
 }
 
 .service-card .ant-card-head-title {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
   color: #0e5fa5;
+  padding-bottom: 20px;
+  line-height: 1.4;
 }
 
 .service-card .service-description {
-  font-size: 16px;
+  font-size: 20px;
   color: #666;
-  margin: 16px 0;
-  line-height: 1.6;
+  margin: 24px 0;
+  line-height: 1.8;
 }
 
-.service-card .service-icon {
-  font-size: 48px;
-  text-align: center;
-  margin: 16px 0;
+.service-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.service-icons .main-icon {
+  font-size: 36px;
   color: #0e5fa5;
+}
+
+.service-icons .sub-icon {
+  font-size: 48px;
+  color: #0e5fa5;
+  margin-left: 8px;
 }
